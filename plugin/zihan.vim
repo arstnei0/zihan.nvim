@@ -2,11 +2,11 @@ command -nargs=* Pnpm :!pnpm <args>
 command PrettierInit :!cp ~/prettier/.* .
 command PrettierAll :!pnpm prettier -w .
 
-let g:closetag_filenames = '*.html,*.xhtml,*.phtml'
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.jsx,*.tsx'
 
 let g:closetag_xhtml_filenames = '*.xhtml,*.jsx,*.tsx'
 
-let g:closetag_filetypes = 'html,xhtml,phtml'
+let g:closetag_filetypes = 'html,xhtml,phtml,typescriptreact,javascriptreact'
 
 let g:closetag_xhtml_filetypes = 'xhtml,jsx,tsx,typescriptreact,javascriptreact'
 
